@@ -1,0 +1,49 @@
+jdk
+eclipse
+git
+maven
+azure toolkit
+apache olingo
+
+
+Links
+SQL
+https://docs.microsoft.com/en-us/sql/connect/jdbc/microsoft-jdbc-driver-for-sql-server
+Eclispe - use 2008 driver
+
+Olingo
+https://olingo.apache.org/doc/odata2/maven.html
+https://blogs.sap.com/2014/02/05/odata-producer-using-apache-olingo-with-mysql-jpa-tomcat-web-server/
+http://olingo.apache.org/doc/odata2/tutorials/CreateWebApp.html
+https://olingo.apache.org/doc/odata2/tutorials/ExtendingtheEDM.html
+https://stackoverflow.com/questions/37853761/olingo-odata-v2-read-property-not-implemented
+
+MAven - SQL
+https://stackoverflow.com/questions/19537396/missing-artifact-com-microsoft-sqlserversqljdbc4jar4-0
+
+JBoss
+http://download.jboss.org/jbosstools/oxygen/development/updates/
+
+Hybernate
+https://o7planning.org/en/10125/using-hibernate-tools-generate-entity-classes-from-tables
+https://examples.javacodegeeks.com/enterprise-java/hibernate/hibernate-crud-operations-tutorial/
+http://hibernate.org/orm/releases/5.1/
+https://samplecodebase.com/using-hibernate-tools-generate-entity-classes-from-tables/
+
+Persistence.xml
+http://javahowto.blogspot.be/2007/06/where-to-put-persistencexml-in-web-app.html
+Copy folder on target - check cars project
+
+UI5
+https://blogs.sap.com/2015/04/05/crud-in-sapui5-with-odata-and-jpa-running-on-hcp/
+
+https://www.javatips.net/api/cloud-espm-scenarios-master/espm-cloud-web/src/main/java/com/sap/espm/model/web/StartupServlet.java
+https://www.programcreek.com/java-api-examples/index.php?source_dir=cloud-sfsf-benefits-ext-master/com.sap.hana.cloud.samples.benefits/src/com/sap/hana/cloud/samples/benefits/odata/cfg/BenefitsJPAEdmExtension.java#
+
+
+org.hibernate.jpa.internal.EntityManagerFactoryImpl
+
+GIT
+http://imtilab.blogspot.com.es/2016/10/how-to-pushupload-eclipse-project-to.html
+
+https://checkmarx.atlassian.net/wiki/spaces/KC/pages/131432811/GitHub+-+Tips+on+Finding+Git+GitHub+Repository+URLs
