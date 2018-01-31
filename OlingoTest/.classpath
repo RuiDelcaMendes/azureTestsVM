@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_161">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v8.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="com.microsoft.sqljdbc4.DRIVER_JAVAEE6/6.1.0">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Program Files/Java/lib/eclipselink/jlib/eclipselink.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/lib/eclipselink/jlib/jpa/javax.persistence_2.1.0.v201304241213.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/lib/olingo-odata2-jar/com.google.code.gson-gson-2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/lib/olingo-odata2-jar/commons-codec-commons-codec-1.6.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/lib/olingo-odata2-jar/javax.ws.rs-javax.ws.rs-api-2.0-m10.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/lib/olingo-odata2-jar/org.apache.olingo-olingo-odata2-api-2.0.10.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/lib/olingo-odata2-jar/org.apache.olingo-olingo-odata2-api-annotation-2.0.10.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/lib/olingo-odata2-jar/org.apache.olingo-olingo-odata2-core-2.0.10.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/lib/olingo-odata2-jar/cxf-api-2.7.5.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/lib/olingo-odata2-jar/cxf-rt-bindings-xml-2.7.5.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/lib/olingo-odata2-jar/cxf-rt-core-2.7.5.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/lib/olingo-odata2-jar/cxf-rt-frontend-jaxrs-2.7.5.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/lib/olingo-odata2-jar/cxf-rt-transports-http-2.7.5.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/lib/olingo-odata2-jar/olingo-odata2-jpa-processor-api-incubating-1.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/lib/olingo-odata2-jar/olingo-odata2-jpa-processor-core-incubating-1.0.0.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
