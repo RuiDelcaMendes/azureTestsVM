@@ -1,0 +1,119 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>test.Olingo</groupId>
+  <artifactId>Car</artifactId>
+  <packaging>war</packaging>
+  <version>1.0.0</version>
+  <name>Car Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+    <properties>
+    <javax.version>2.5</javax.version>
+    <odata.version>1.0.0</odata.version>
+    <slf4j.version>1.7.7</slf4j.version>
+    <cxf.version>2.7.5</cxf.version>
+     <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
+  <dependencies>
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>servlet-api</artifactId>
+      <version>${javax.version}</version>
+      <scope>provided</scope>
+    </dependency>
+
+<dependency>
+      <groupId>org.apache.cxf</groupId>
+      <artifactId>cxf-api</artifactId>
+      <version>${cxf.version}</version>
+    </dependency>
+<dependency>
+      <groupId>org.apache.cxf</groupId>
+      <artifactId>cxf-rt-bindings-xml</artifactId>
+      <version>${cxf.version}</version>
+    </dependency><dependency>
+      <groupId>org.apache.cxf</groupId>
+      <artifactId>cxf-rt-core</artifactId>
+      <version>${cxf.version}</version>
+    </dependency><dependency>
+      <groupId>org.apache.cxf</groupId>
+      <artifactId>cxf-rt-frontend-jaxrs</artifactId>
+      <version>${cxf.version}</version>
+    </dependency><dependency>
+      <groupId>org.apache.cxf</groupId>
+      <artifactId>cxf-rt-transports-http</artifactId>
+      <version>${cxf.version}</version>
+    </dependency>
+<dependency>
+      <groupId>org.apache.olingo</groupId>
+      <artifactId>olingo-odata2-api-incubating</artifactId>
+      <version>${odata.version}</version>
+    </dependency>
+<dependency>
+      <groupId>org.apache.olingo</groupId>
+      <artifactId>olingo-odata2-core-incubating</artifactId>
+      <version>${odata.version}</version>
+    </dependency>
+
+<!-- https://mvnrepository.com/artifact/org.netbeans.external/javax.persistence -->
+<dependency>
+    <groupId>org.netbeans.external</groupId>
+    <artifactId>javax.persistence_2.1.0.v201304241213</artifactId>
+    <version>RELEASE74-BETA</version>
+</dependency>
+
+
+
+<dependency>
+			<groupId>com.microsoft.sqlserver</groupId>
+			<artifactId>mssql-jdbc</artifactId>
+			<version>6.2.1.jre8</version>
+</dependency>
+
+<dependency>
+    <groupId>org.eclipse.persistence</groupId>
+    <artifactId>eclipselink</artifactId>
+    <version>2.5.0</version>
+</dependency>
+
+    
+<dependency>
+      <groupId>org.apache.olingo</groupId>
+      <artifactId>olingo-odata2-api-annotation-incubating</artifactId>
+      <version>${odata.version}</version>
+    </dependency>
+    
+    <dependency>
+      <groupId>org.apache.olingo</groupId>
+      <artifactId>olingo-odata2-jpa-processor-core-incubating</artifactId>
+      <version>${odata.version}</version>
+    </dependency>
+    
+    <dependency>
+      <groupId>org.apache.olingo</groupId>
+      <artifactId>olingo-odata2-jpa-processor-api-incubating</artifactId>
+      <version>${odata.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-simple</artifactId>
+      <version>${slf4j.version}</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+  <groupId>org.slf4j</groupId>
+  <artifactId>slf4j-api</artifactId>
+  <version>1.7.11</version>
+  <scope>compile</scope>
+</dependency>
+  </dependencies>
+  <build>
+    <finalName>Car</finalName>
+   <resources>
+     <resource>
+       <directory>src/main/java/META-INF</directory>
+     </resource>
+   </resources>
+  </build>
+</project>
