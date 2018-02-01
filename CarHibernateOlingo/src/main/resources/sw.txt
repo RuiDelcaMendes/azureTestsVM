@@ -36,6 +36,7 @@ Copy folder on target - check cars project
 
 UI5
 https://blogs.sap.com/2015/04/05/crud-in-sapui5-with-odata-and-jpa-running-on-hcp/
+https://raulcaraballoit.wordpress.com/2017/06/26/openui5-and-odata-data-bindings-with-mariadb-crud-full-example-part-2/
 
 https://www.javatips.net/api/cloud-espm-scenarios-master/espm-cloud-web/src/main/java/com/sap/espm/model/web/StartupServlet.java
 https://www.programcreek.com/java-api-examples/index.php?source_dir=cloud-sfsf-benefits-ext-master/com.sap.hana.cloud.samples.benefits/src/com/sap/hana/cloud/samples/benefits/odata/cfg/BenefitsJPAEdmExtension.java#
@@ -48,5 +49,5 @@ http://imtilab.blogspot.com.es/2016/10/how-to-pushupload-eclipse-project-to.html
 
 https://checkmarx.atlassian.net/wiki/spaces/KC/pages/131432811/GitHub+-+Tips+on+Finding+Git+GitHub+Repository+URLs
 
-
-aa
+OData
+http://www.odata.org/documentation/odata-version-2-0/uri-conventions/
