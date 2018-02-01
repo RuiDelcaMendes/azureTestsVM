@@ -3,8 +3,6 @@
                                          "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
  <session-factory name="">
-  <!-- SQL Dialect -->
-  <property name="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</property>
   <!-- Database Connection Settings -->
   <property name="hibernate.connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
   <property name="hibernate.connection.url">jdbc:sqlserver://rdmdbserver2.database.windows.net:1433;databaseName=DBTest</property>
@@ -13,7 +11,8 @@
   <property name="show_sql">true</property>
   <!-- Specifying Session Context -->
   <property name="hibernate.current_session_context_class">org.hibernate.context.internal.ThreadLocalSessionContext</property>
+  <property name="hibernate.dialect">org.hibernate.dialect.SQLServer2012Dialect</property>
   <!-- Mapping With Model Class Containing Annotations -->
-  <mapping class="model.Car" />
+  <mapping class="model.Car"/>
  </session-factory>
 </hibernate-configuration>

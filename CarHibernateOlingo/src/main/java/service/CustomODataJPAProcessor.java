@@ -34,6 +34,7 @@ import org.apache.olingo.odata2.api.uri.NavigationSegment;
 import org.apache.olingo.odata2.api.uri.PathInfo;
 import org.apache.olingo.odata2.api.uri.UriInfo;
 import org.apache.olingo.odata2.api.uri.info.GetComplexPropertyUriInfo;
+import org.apache.olingo.odata2.api.uri.info.GetEntitySetCountUriInfo;
 import org.apache.olingo.odata2.api.uri.info.GetEntitySetUriInfo;
 import org.apache.olingo.odata2.api.uri.info.GetEntityUriInfo;
 import org.apache.olingo.odata2.api.uri.info.GetSimplePropertyUriInfo;
@@ -52,8 +53,14 @@ public class CustomODataJPAProcessor extends ODataJPAProcessorDefault {
 
 	@Override
 	public ODataResponse readEntitySet(GetEntitySetUriInfo uriInfo, String contentType) throws ODataException {
-
+		
+		
+		//uriInfo.getTop(); akiii
+		
+		
 		List<Object> jpaEntities = jpaProcessor.process(uriInfo);
+		
+		//jpaEntities = jpaEntities.subList(uriInfo.getSkip(), uriInfo.getTop());
 
 		ODataResponse oDataResponse = ODataJPAResponseBuilder.build(jpaEntities, uriInfo, contentType, oDataJPAContext);
 
@@ -169,6 +176,12 @@ public class CustomODataJPAProcessor extends ODataJPAProcessorDefault {
 		      responses.add(response);
 		    }
 		    return BatchResponsePart.responses(responses).changeSet(true).build();
+	}
+
+	@Override
+	public ODataResponse countEntitySet(GetEntitySetCountUriInfo uriParserResultView, String contentType)
+			throws ODataException {
+		return super.countEntitySet(uriParserResultView, contentType);
 	}
 
 	@Override

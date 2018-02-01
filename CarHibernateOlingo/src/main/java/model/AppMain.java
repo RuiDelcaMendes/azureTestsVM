@@ -20,9 +20,16 @@ public class AppMain {
 		}
 		*/
 		
+		/*
 		EntityManagerFactory emf = 
 				Persistence.createEntityManagerFactory(PERSISTENCE_UNIT_NAME);
+		*/
 		
+		Iterator<Car> iter = dao.DboOperations.topRecords(10).iterator();
+		while (iter.hasNext()) {
+			System.out.println(iter.next().toString());
+
+		}
 		System.out.println("ok");
 		
 		System.exit(0);

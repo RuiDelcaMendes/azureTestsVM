@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.log4j.Logger;
+import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
@@ -89,7 +90,32 @@ public class DboOperations {
 			sessionObj.close();
 
 	}
+	
+	@SuppressWarnings("unchecked")
+	public static List<Car> topRecords(int top){
+		List<Car> carList = new ArrayList<Car>();
+		try {
+			DboOperations.initTransaction();
+			
+			Query qry = sessionObj.createQuery(" FROM Car");
+			qry.setMaxResults(top);
+			
+			//List aList = sessionObj.createQuery(" FROM Car").list();
+			carList = (List<Car>)qry.list();
+			
+			
 
+		} catch (Exception exc) {
+			rollbackTransaction();
+			exc.printStackTrace();
+
+		} finally {
+			closeTransaction();
+		}
+
+		return carList;
+	}
+	
 	// Method 2: This Method Is Used To Display The Records From The Database Table
 	@SuppressWarnings("unchecked")
 	public static List<Car> displayRecords() {

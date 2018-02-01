@@ -29,6 +29,7 @@ https://o7planning.org/en/10125/using-hibernate-tools-generate-entity-classes-fr
 https://examples.javacodegeeks.com/enterprise-java/hibernate/hibernate-crud-operations-tutorial/
 http://hibernate.org/orm/releases/5.1/
 https://samplecodebase.com/using-hibernate-tools-generate-entity-classes-from-tables/
+dialect --> https://github.com/querydsl/querydsl/issues/1939
 
 Persistence.xml
 http://javahowto.blogspot.be/2007/06/where-to-put-persistencexml-in-web-app.html
