@@ -4,7 +4,7 @@ git
 maven
 azure toolkit
 apache olingo
-
+https://tools.hana.ondemand.com/oxygen
 
 Links
 SQL
@@ -52,3 +52,7 @@ https://checkmarx.atlassian.net/wiki/spaces/KC/pages/131432811/GitHub+-+Tips+on+
 
 OData
 http://www.odata.org/documentation/odata-version-2-0/uri-conventions/
+
+
+https://blogs.sap.com/2016/10/02/blog-seriesodata-protocol-implementation-for-iot-applications-on-sap-hcp/
+https://github.com/jpenninkhof/odata-boilerplate/tree/master/src/main/java/com/penninkhof/odata/utils
